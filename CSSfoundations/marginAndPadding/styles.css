@@ -1,0 +1,28 @@
+.one{
+    border-style: solid;
+    border-color: blue;
+    border-width: 10px;
+    padding: 24px;
+    background-color: coral;
+}
+.two{
+    background-color: lightblue;
+    border-style: solid;
+    border-color: purple;
+    border-width: 30px;
+    padding: 75px;
+    color:white;
+    margin-top:50px;
+}
+.three{
+    background-color: yellow;
+    border-color: brown;
+    border-style: solid;
+    border-width: 10px;
+    margin-left: auto;
+    text-align: center;
+    width:200px;
+}
+div{
+    margin:10px;
+}

@@ -1,0 +1,21 @@
+div{
+    margin:2px;
+    background-color: aqua;
+    padding: 10px;
+}
+.first_card{
+    font-weight: bolder;
+    text-align: left;
+    padding:0px;
+}
+.second_card{
+    text-align: center;
+    font-size: xx-large;
+}
+.third_card{
+    text-align: right;
+}
+button{
+    font-style: italic;
+    font-size:20px;
+}
