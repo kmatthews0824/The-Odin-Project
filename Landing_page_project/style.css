@@ -5,7 +5,7 @@ body{
     display:flex;
     justify-content: space-between;
     flex:1 1 auto;
-    background-color: #173456;
+    background-color: #1F2937;
     color: white;
     align-items: center;
     padding-right:20px;
@@ -19,7 +19,7 @@ body{
 ul{
     list-style: none;
 }
-.under_nav>img{
+img{
     max-width:30em;
     max-height:10em;
 }
@@ -28,17 +28,69 @@ ul{
     align-items: center;
     flex: 1 1 auto;
     justify-content: space-evenly;
-    background-color: #173456;
+    background-color: #1F2937;
     color: white;
     padding-right:20px;
     padding-bottom: 10px;
     padding-left:20px;
 }
-.under_nav_content>.signup_button{
+.signup_button{
     display:flex;
     background-color: rgb(73, 73, 240);
     color:white;
     border-radius: 8px;
     font-size: 20px;
 }
-
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.images{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.imgs{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.quote{
+    display:flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+cite{
+    display:flex;
+    justify-content: flex-end;
+}
+.signup{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    background-color: #3882F6;
+    color:white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.cta{
+    display:flex;
+    justify-content: flex-start;
+    text-align:center;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #1F2937;
+    color:white;
+}
