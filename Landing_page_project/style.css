@@ -1,15 +1,17 @@
 body{
     font-family: roboto;
+    
 }
 .header{
     display:flex;
     justify-content: space-between;
-    flex:1 1 auto;
     background-color: #1F2937;
     color: white;
     align-items: center;
     padding-right:20px;
     padding-left: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 .right{
     display:flex;
@@ -33,6 +35,8 @@ img{
     padding-right:20px;
     padding-bottom: 10px;
     padding-left:20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 .signup_button{
     display:flex;
@@ -46,12 +50,11 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 .images{
     display:flex;
     justify-content: center;
-    gap: 10px;
+    gap: 2px;
     text-align: center;
     align-items: center;
 }
@@ -61,7 +64,8 @@ img{
     justify-content: center;
     text-align: center;
     align-items: center;
-    
+    border: solid 4px black;
+    border-radius: 25px;
 }
 .quote{
     display:flex;
@@ -93,4 +97,12 @@ cite{
     align-items:center;
     background-color: #1F2937;
     color:white;
+}
+a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+a{
+    color:white;
+    text-decoration: none;
 }
