@@ -1,0 +1,25 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    min-width: 100vh;
+}
+
+img{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    mix-blend-mode: multiply;
+}
